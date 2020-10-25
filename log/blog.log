@@ -1,0 +1,26 @@
+2020-10-25 15:19:12.220  INFO 13680 --- [restartedMain] com.usy.blog.BlogApplication             : Starting BlogApplication on 0K5YNYWQQ47RTA5 with PID 13680 (G:\CongZhenJie\blog\target\classes started by Administrator in G:\CongZhenJie\blog)
+2020-10-25 15:19:12.232  INFO 13680 --- [restartedMain] com.usy.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2020-10-25 15:19:12.301  INFO 13680 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-25 15:19:12.301  INFO 13680 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-25 15:19:13.400  INFO 13680 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-10-25 15:19:13.543  INFO 13680 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 134ms. Found 5 JPA repository interfaces.
+2020-10-25 15:19:14.404  INFO 13680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3389 (http)
+2020-10-25 15:19:14.411  INFO 13680 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-25 15:19:14.412  INFO 13680 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-25 15:19:14.504  INFO 13680 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-25 15:19:14.504  INFO 13680 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2202 ms
+2020-10-25 15:19:14.706  INFO 13680 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-25 15:19:14.792  INFO 13680 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-25 15:19:14.868  INFO 13680 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-25 15:19:15.049  INFO 13680 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-25 15:19:15.283  INFO 13680 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-25 15:19:15.355  INFO 13680 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-10-25 15:19:15.809  INFO 13680 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-25 15:19:15.852  WARN 13680 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-10-25 15:19:15.866  INFO 13680 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-10-25 15:19:15.888  INFO 13680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3389 (http) with context path ''
+2020-10-25 15:19:15.889  INFO 13680 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-10-25 15:19:16.748  INFO 13680 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-25 15:19:16.755  INFO 13680 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-25 15:19:19.454  INFO 13680 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-10-25 15:19:19.460  INFO 13680 --- [restartedMain] com.usy.blog.BlogApplication             : Started BlogApplication in 7.704 seconds (JVM running for 8.353)
